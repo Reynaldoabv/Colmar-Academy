@@ -1,5 +1,6 @@
 body {
 	margin: 0 auto;
+	color: #4a4a4a;
 }
 
 .container {
@@ -7,7 +8,7 @@ body {
 	margin: 0 auto;
 }
 
-/* Header styles */
+/* HEADER STYLES */
 
 header {
 	display: flex;
@@ -56,6 +57,12 @@ header {
 	color: #4a4a4a;
 }
 
+.icons-menu {
+   	display: none;
+}
+
+/* BANNER SECTION */
+
 main {
 	background-color: #d8d8d8;
 	display: flex;
@@ -71,7 +78,6 @@ main {
 }
 
 .aside-text{
-	color: #4a4a4a;
 	width: 30%;
 	padding-top: 32px;
 	padding-bottom: 32px;
@@ -101,4 +107,64 @@ main {
 .aside-text h5 {
 	margin: 0px;
 	text-align: center;
+}
+
+/* THIRD PART */
+
+section {
+	display: flex;
+}
+
+.first-column {
+	width: 60%;
+	padding: 32px 24px;
+}
+
+.first-column img {
+	width: 100%;
+	padding-bottom: 32px;
+}
+
+.first-column h2 {
+	font-size: 48px;
+}
+
+.first-column p {
+	font-size: 24px;
+}
+
+.first-column h2, p {
+	padding-bottom: 24px;
+	margin: 0;
+}
+
+.second-column {
+	width: 40%;
+	padding: 32px 0px 32px 32px;
+}
+
+.div-flex {
+	display: flex;
+}
+
+.div-information {
+	width: 35% auto;
+}
+
+.img-information {
+	width: 79%;
+	padding: 0px 16px 32px 16px;
+}
+
+.text-information {
+	width: 65%;
+}
+
+.guest-lecture {
+	background-color: #d8d8d8;
+}
+
+#guest {
+	padding: 16px;
+	width: 79%;
 }
