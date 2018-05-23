@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-	width: 1360px;
+	width: 1345px;
 	margin: 0 auto;
 }
 
@@ -13,7 +13,6 @@ header {
 	display: flex;
 	font-family: 'Open Sans', sans-serif;
 	height: 64px;
-	border: 1px black solid;
 }
 
 .logo-img {
@@ -55,4 +54,51 @@ header {
 	padding-left: 16px;
 	text-decoration: none;
 	color: #4a4a4a;
+}
+
+main {
+	background-color: #d8d8d8;
+	display: flex;
+}
+
+.banner {
+	padding: 32px 24px;
+	width: 60%;	
+}
+
+.banner img {
+	width: 100%;
+}
+
+.aside-text{
+	color: #4a4a4a;
+	width: 30%;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.aside-text h2 {
+	font-size: 50px;
+	padding-top: 100px;
+}
+
+.aside-text p {
+	width: 90%;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.aside-text div {
+	background-color: #4a4a4a;
+	color: #fff;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 22px;
+	margin-top: 50px;
+	width: 90%;
+}
+
+.aside-text h5 {
+	margin: 0px;
+	text-align: center;
 }
