@@ -387,6 +387,10 @@ footer {
 		display: block;
 	}
 
+	.img-information2 img {
+		width: 448px;
+	}
+
 	.text-information {
 		padding: 16px 32px;
 		width: 70%;
